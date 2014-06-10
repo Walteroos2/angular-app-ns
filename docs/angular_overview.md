@@ -7,7 +7,7 @@ Use modules to encapsulate code so that keep away from global namespace. It's ea
 angular.module('myApp', [/*?injectables*/]); // Define a module
 // injectables will be loaded before this module loads
 
-angular.module('myApp');     // Get 'myAp' module reference
+angular.module('myApp');     // Get 'myApp' module reference
 ```
 
 ## Scopes
